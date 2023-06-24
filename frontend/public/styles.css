@@ -1,0 +1,151 @@
+.navbar {
+    padding: 2 0 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    background-color: #2B3467;
+}
+.navbar-brand{
+    color: #BAD7E9;
+    margin-left: 2rem;
+}
+body{
+  
+    background-color: #BAD7E9;
+}
+.btn {
+  margin: 2px;
+}
+
+.EmployeeDashboard{
+    padding: 2rem;
+}
+
+/* EmployeeForm */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    margin: 0 0 20px;
+    font-size: 24px;
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 0;
+    width: 100%;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* .employee-table button {
+    margin: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #fff;
+  } */
+  
+ button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* EmployeeTable */
+  
+   table {
+    border-collapse: collapse;
+    
+  }  
+  
+  th, td {
+    text-align: center;
+    
+    border: 1px solid #ccc;
+  }
+  
+th {
+    background-color: #f2f2f2;
+  }
+  
+ tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+tr:hover {
+    background-color: #ddd;
+  }
+  
+  
+button:hover {
+    background-color: #847e7e;
+  }
+  
+
+
+.card{
+    background-color: #FCFFE7;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #4545456b;
+}
+.card-left{
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+.card-right{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.search-card{
+  margin-top: 2rem;
+}
+.container {
+    margin-top: 2rem;
+}
+.popup-btn{
+  height: 0px;
+  width: 0px;
+  padding: 0px;
+  border: none;
+  background: none;
+  color: #ffffff00;
+}
+.popup-btn :hover{
+  color: #ffffff00;
+}
+.popup-btn td{
+  border: none;
+}
+.address-btn{
+  
+  border: none;
+  background: none;
+  align-items: center;
+  
+}
+.address-btn td{
+  border: none;
+}
+
+
+footer {
+    padding: 7% 15%;
+    text-align: center;
+}
